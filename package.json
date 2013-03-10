@@ -1,0 +1,21 @@
+{
+  "name": "jr-typescript",
+  "description": "A JR job for typescript.",
+  "keywords": ["jr", "typescript"],
+  "author": "Jeff Raymakers",
+  "version": "0.0.1",
+  "main": "./lib/jr-typescript.js",
+  "dependencies": {
+    "typescript": "0.8.x",
+    "underscore": "1.4.x"
+  },
+  "devDependencies": {
+    "async": "0.2.x",
+    "fs-extra": "0.5.x",
+    "mocha": "1.8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jraymakers/jr-typescript.git"
+  }
+}
