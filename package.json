@@ -3,7 +3,7 @@
   "description": "A JR job for typescript.",
   "keywords": ["jr", "typescript"],
   "author": "Jeff Raymakers",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./lib/jr-typescript.js",
   "dependencies": {
     "typescript": "0.8.x",
@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "async": "0.2.x",
-    "fs-extra": "0.5.x",
-    "mocha": "1.8.x"
+    "fs-extra": "0.6.x",
+    "mocha": "1.9.x"
   },
   "repository": {
     "type": "git",
