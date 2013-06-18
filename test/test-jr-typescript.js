@@ -18,8 +18,20 @@ describe('jr-typescript', function () {
   var outFile  = path.join(testFilesDir, 'out.js');
   var fileAContents = 'class A { }';
   var fileBContents = 'class B { }';
-  var expectedFileAOutput = 'var A = (function () {\r\n    function A() { }\r\n    return A;\r\n})();\r\n';
-  var expectedFileBOutput = 'var B = (function () {\r\n    function B() { }\r\n    return B;\r\n})();\r\n';
+  var expectedFileAOutput = [
+    'var A = (function () {',
+    '    function A() {',
+    '    }',
+    '    return A;',
+    '})();',
+    ''].join('\r\n');
+  var expectedFileBOutput = [
+    'var B = (function () {',
+    '    function B() {',
+    '    }',
+    '    return B;',
+    '})();',
+    ''].join('\r\n');
 
   afterEach(function (done) {
     fse.remove(testFilesDir, done);
