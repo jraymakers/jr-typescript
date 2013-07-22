@@ -3,7 +3,7 @@
   "description": "A JR job for typescript.",
   "keywords": ["jr", "typescript"],
   "author": "Jeff Raymakers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./lib/jr-typescript.js",
   "dependencies": {
     "typescript": "0.9.x",
