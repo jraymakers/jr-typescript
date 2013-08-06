@@ -3,19 +3,22 @@
   "description": "A JR job for typescript.",
   "keywords": ["jr", "typescript"],
   "author": "Jeff Raymakers",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./lib/jr-typescript.js",
   "dependencies": {
     "typescript": "0.9.x",
-    "underscore": "1.4.x"
+    "underscore": "1.5.x"
   },
   "devDependencies": {
     "async": "0.2.x",
     "fs-extra": "0.6.x",
-    "mocha": "1.11.x"
+    "mocha": "1.12.x"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/jraymakers/jr-typescript.git"
+  },
+  "scripts": {
+    "test": "mocha -t 5000 -R list"
   }
 }
